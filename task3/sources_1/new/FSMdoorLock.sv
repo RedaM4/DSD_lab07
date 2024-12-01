@@ -29,9 +29,9 @@ module FSMdoorLock(
     output logic [3:0]out
     );
 
-    typedef enum logic [2:0] {locked,unlocked} state_t;
+    typedef enum logic [1:0] {locked,unlocked} state_t;
     
-    logic MypassWD=4'b1001;
+    logic [3:0]MypassWD=4'b1001;
     state_t current_state, next_state;
     
     always_ff @(posedge clk,negedge reset) begin
@@ -43,8 +43,14 @@ module FSMdoorLock(
     
     always_comb begin
         case(current_state)
-            locked:   if(b1==1) next_state = (passWD==MypassWD) ? unlocked : locked;
-            unlocked:  if(b2==1) next_state = locked;
+            locked:   if(b1==1'b1 & passWD==MypassWD)
+                             next_state = unlocked;
+                      else
+                             next_state = locked;       
+            unlocked:  if(b2==1'b1) 
+                            next_state = locked;
+                      else
+                            next_state= unlocked;
         endcase
     end
     
