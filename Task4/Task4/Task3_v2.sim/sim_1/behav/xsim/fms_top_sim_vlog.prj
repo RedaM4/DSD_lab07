@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../../../task3/sources_1/new/FSMdoorLock.sv" \
+"../../../../Task3_v2.srcs/sources_1/new/FSMdoorLock_top.sv" \
+"../../../../../../task3/sources_1/imports/src/cBits_comparator.sv" \
+"../../../../../../task3/sources_1/new/dFlipFlop.sv" \
+"../../../../../../task3/sources_1/imports/src/nBits_up_down_counter.sv" \
+"../../../../../../task3/sources_1/imports/src/n_clockDivider.sv" \
+"../../../../Task3_v2.srcs/sim_1/new/fms_top_sim.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
