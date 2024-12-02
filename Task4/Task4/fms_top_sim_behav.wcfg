@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="fms_top_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="fms_top_sim" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="10000000001fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="122"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject type="logic" fp_name="/fms_top_sim/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fms_top_sim/ff/newclk">
+      <obj_property name="ElementShortName">newclk</obj_property>
+      <obj_property name="ObjectShortName">newclk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fms_top_sim/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fms_top_sim/b1">
+      <obj_property name="ElementShortName">b1</obj_property>
+      <obj_property name="ObjectShortName">b1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fms_top_sim/b2">
+      <obj_property name="ElementShortName">b2</obj_property>
+      <obj_property name="ObjectShortName">b2</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fms_top_sim/out">
+      <obj_property name="ElementShortName">out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">out[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fms_top_sim/passWD">
+      <obj_property name="ElementShortName">passWD[3:0]</obj_property>
+      <obj_property name="ObjectShortName">passWD[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fms_top_sim/ff/fsm/current_state">
+      <obj_property name="ElementShortName">current_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fms_top_sim/ff/fsm/next_state">
+      <obj_property name="ElementShortName">next_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fms_top_sim/ff/fsm/count">
+      <obj_property name="ElementShortName">count[3:0]</obj_property>
+      <obj_property name="ObjectShortName">count[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fms_top_sim/ff/fsm/nWrongPass">
+      <obj_property name="ElementShortName">nWrongPass[1:0]</obj_property>
+      <obj_property name="ObjectShortName">nWrongPass[1:0]</obj_property>
+   </wvobject>
+</wave_config>

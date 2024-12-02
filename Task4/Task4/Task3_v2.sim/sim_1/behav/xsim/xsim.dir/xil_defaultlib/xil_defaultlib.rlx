@@ -1,0 +1,12 @@
+0.6
+2019.1
+May 24 2019
+14:51:52
+/home/it/chipxprt/DSD/DSD_lab07/Task4/Task4/Task3_v2.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+/home/it/chipxprt/DSD/DSD_lab07/Task4/Task4/Task3_v2.srcs/sim_1/new/fms_top_sim.sv,1733159792,systemVerilog,,,,fms_top_sim,,,,,,,,
+/home/it/chipxprt/DSD/DSD_lab07/Task4/Task4/Task3_v2.srcs/sources_1/new/FSMdoorLock_top.sv,1733122285,systemVerilog,,/home/it/chipxprt/DSD/DSD_lab07/task3/sources_1/imports/src/cBits_comparator.sv,,FSMdoorLock_top,,,,,,,,
+/home/it/chipxprt/DSD/DSD_lab07/task3/sources_1/imports/src/cBits_comparator.sv,1733061546,systemVerilog,,/home/it/chipxprt/DSD/DSD_lab07/task3/sources_1/new/dFlipFlop.sv,,nBits_comparator,,,,,,,,
+/home/it/chipxprt/DSD/DSD_lab07/task3/sources_1/imports/src/nBits_up_down_counter.sv,1733061546,systemVerilog,,/home/it/chipxprt/DSD/DSD_lab07/task3/sources_1/imports/src/n_clockDivider.sv,,nBits_up_down_counter,,,,,,,,
+/home/it/chipxprt/DSD/DSD_lab07/task3/sources_1/imports/src/n_clockDivider.sv,1733060922,systemVerilog,,/home/it/chipxprt/DSD/DSD_lab07/Task4/Task4/Task3_v2.srcs/sim_1/new/fms_top_sim.sv,,n_clockDivider,,,,,,,,
+/home/it/chipxprt/DSD/DSD_lab07/task3/sources_1/new/FSMdoorLock.sv,1733159663,systemVerilog,,/home/it/chipxprt/DSD/DSD_lab07/Task4/Task4/Task3_v2.srcs/sources_1/new/FSMdoorLock_top.sv,,FSMdoorLock,,,,,,,,
+/home/it/chipxprt/DSD/DSD_lab07/task3/sources_1/new/dFlipFlop.sv,1733061546,systemVerilog,,/home/it/chipxprt/DSD/DSD_lab07/task3/sources_1/imports/src/nBits_up_down_counter.sv,,dFlipFlop,,,,,,,,

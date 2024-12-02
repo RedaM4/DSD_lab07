@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/it/chipxprt/DSD/DSD_lab07/task3/sources_1/new/FSMdoorLock.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FSMdoorLock
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/it/chipxprt/DSD/DSD_lab07/Task4/Task4/Task3_v2.srcs/sources_1/new/FSMdoorLock_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FSMdoorLock_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/it/chipxprt/DSD/DSD_lab07/task3/sources_1/imports/src/cBits_comparator.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nBits_comparator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/it/chipxprt/DSD/DSD_lab07/task3/sources_1/new/dFlipFlop.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dFlipFlop
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/it/chipxprt/DSD/DSD_lab07/task3/sources_1/imports/src/nBits_up_down_counter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nBits_up_down_counter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/it/chipxprt/DSD/DSD_lab07/task3/sources_1/imports/src/n_clockDivider.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module n_clockDivider
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/it/chipxprt/DSD/DSD_lab07/Task4/Task4/Task3_v2.srcs/sim_1/new/fms_top_sim.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fms_top_sim
